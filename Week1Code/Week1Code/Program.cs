@@ -14,24 +14,17 @@ namespace Week1Code
         private int pos;
         private char punctuation;
         private int i;
-        private char tempChar;
 
         /// <summary>
         /// this object takes 2 arguments
         /// </summary>
         /// <param name="pos"></param>
         /// <param name="punctuation"></param>
-        PunctuationAt(int pos, char punctuation)
-        {
-            this.pos = pos;
-            this.punctuation = punctuation;
-        }
-
         public PunctuationAt(int i, char tempChar)
         {
             // TODO: Complete member initialization
             this.i = i;
-            this.tempChar = tempChar;
+            punctuation = tempChar;
         }
 
         public int getPos()
@@ -139,13 +132,18 @@ namespace Week1Code
         /// </summary>
         static void Yodaizer()
         {
-            string someKindOLongString = "This is the first time I have done this.";
+            string someKindOLongString = "This is the first time I have done this. Patrick's owns!!";
             string[] sentenceArray = someKindOLongString.Split(' ');
             string[] reverseArray = new string[someKindOLongString.Length];
             // using a list b/c we don't know how many punctuation in the string
             List<PunctuationAt> placePunctuationAt = new List<PunctuationAt>();
 
-            // this is to find the punctuation and taking
+            for (int i = 0; i < sentenceArray.Length; i++)
+            {
+                Console.WriteLine(sentenceArray[i].ToString());
+            }
+
+            // this is to find the punctuation and taking out the punction from the word
             for (int i = 0; i < sentenceArray.Length; i++)
             {
                 string tempString = sentenceArray[i];   // pulling the word and putting temp variable
@@ -154,7 +152,8 @@ namespace Week1Code
                 {
                     char tempChar = Convert.ToChar(tempString[x]);
                     string stringTemp = "";
-                    if (!(Char.IsLetter(tempChar))){
+                    if (!(Char.IsLetter(tempChar) || tempChar == '\'')){
+                        // I realize I don't need to add the punctuation back on to the word.
                         placePunctuationAt.Add(new PunctuationAt(i, tempChar));
                     }
                     else
@@ -164,6 +163,10 @@ namespace Week1Code
                     tempString = stringTemp;
                     sentenceArray[i] = tempString;
                 }
+            }
+            for (int i = 0; i < sentenceArray.Length; i++)
+            {
+                Console.WriteLine(sentenceArray[i].ToString());
             }
         }
 
