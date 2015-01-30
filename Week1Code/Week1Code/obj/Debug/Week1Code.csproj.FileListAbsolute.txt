@@ -1,0 +1,6 @@
+C:\Users\Technologist SP\Documents\GitHub\Challenges\Week1Code\Week1Code\bin\Debug\Week1Code.exe.config
+C:\Users\Technologist SP\Documents\GitHub\Challenges\Week1Code\Week1Code\bin\Debug\Week1Code.exe
+C:\Users\Technologist SP\Documents\GitHub\Challenges\Week1Code\Week1Code\bin\Debug\Week1Code.pdb
+C:\Users\Technologist SP\Documents\GitHub\Challenges\Week1Code\Week1Code\obj\Debug\Week1Code.csprojResolveAssemblyReference.cache
+C:\Users\Technologist SP\Documents\GitHub\Challenges\Week1Code\Week1Code\obj\Debug\Week1Code.exe
+C:\Users\Technologist SP\Documents\GitHub\Challenges\Week1Code\Week1Code\obj\Debug\Week1Code.pdb

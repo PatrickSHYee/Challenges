@@ -1,0 +1,6 @@
+C:\Users\Technologist SP\Documents\GitHub\Challenges\GroupPick\GroupPick\bin\Debug\GroupPick.exe.config
+C:\Users\Technologist SP\Documents\GitHub\Challenges\GroupPick\GroupPick\bin\Debug\GroupPick.exe
+C:\Users\Technologist SP\Documents\GitHub\Challenges\GroupPick\GroupPick\bin\Debug\GroupPick.pdb
+C:\Users\Technologist SP\Documents\GitHub\Challenges\GroupPick\GroupPick\obj\Debug\GroupPick.csprojResolveAssemblyReference.cache
+C:\Users\Technologist SP\Documents\GitHub\Challenges\GroupPick\GroupPick\obj\Debug\GroupPick.exe
+C:\Users\Technologist SP\Documents\GitHub\Challenges\GroupPick\GroupPick\obj\Debug\GroupPick.pdb

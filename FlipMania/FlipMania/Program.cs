@@ -13,6 +13,10 @@ namespace FlipMania
             int numOfTimes = 10000;
             FlipCoins(numOfTimes);
             FlipForHeads(numOfTimes);
+
+            // debugger stopper
+            Console.WriteLine("Any key to continue...");
+            Console.ReadKey();
         }
 
         static void FlipCoins(int numberOfFlips)
