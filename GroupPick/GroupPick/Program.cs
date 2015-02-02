@@ -48,10 +48,16 @@ namespace GroupPick
                 if (currentGroupList.Count == classSize || listOfStudents.Count == 0)
                 {
                     Console.WriteLine("__Group {0}___", groupNumber);
-                    for (int i = 0; i < currentGroupList.Count; i++)
-                    {
-                        Console.WriteLine(currentGroupList[i]);
-                    }
+
+                    // we could have done this with string.Join("\n", currentGroupList);
+                    Console.WriteLine(string.Join("\n", currentGroupList));
+                        
+                    // looping through the List
+                    //for (int i = 0; i < currentGroupList.Count; i++)
+                    //{
+                    //    Console.WriteLine(currentGroupList[i]);
+                    //}
+
                     currentGroupList.Clear();
                     groupNumber++;
                 }
